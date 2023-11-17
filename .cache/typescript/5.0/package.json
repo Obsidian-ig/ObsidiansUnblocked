@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.670"},"devDependencies":{"@types/function-bind":"^1.1.10","@types/has":"^1.0.2","@types/is-core-module":"^2.2.2","@types/node":"^20.9.0","@types/path-parse":"^1.0.22","@types/resolve":"^1.20.5"}}

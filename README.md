@@ -1,4 +1,4 @@
-[obsidians-unblocked-high-resolution-logo-transparent](https://github.com/Obsidian-ig/ObsidiansUnblocked/assets/149707463/ae73076b-d498-4de7-94a9-5e5307a71e19)
+![obsidians-unblocked-high-resolution-logo-transparent](https://github.com/Obsidian-ig/ObsidiansUnblocked/assets/149707463/ae73076b-d498-4de7-94a9-5e5307a71e19)
 My custom unblocked games website! So far it has 40 working games!
 The site is still a WIP! I have about 50+ more games to add as well as updating a couple of the pages.
 

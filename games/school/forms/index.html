@@ -81,17 +81,7 @@ input[type=submit]:hover {
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>
 	function sendEmail() {
-		Email.send({
-			Host : "smtp.gmail.com",
-			Username : "keemkoom5@gmail.com",
-			Password : "Patrick08!darksamus08nevergonnagivey0uup",
-			To : 'segamega311@gmail.com',
-			From : document.getElementById("email").value,
-			Subject : "New Contact Form Filled From: " + document.getElementById("fname").value + " " + document.getElementById("lname").value,
-			Body : document.getElementById("subject").value
-			}).then(
-			message => alert("Message Sent Successfully! You Will Hear Back Soon!")
-			);
+		
 		}
 	}
 </script>

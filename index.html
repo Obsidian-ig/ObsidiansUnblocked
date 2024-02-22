@@ -60,6 +60,8 @@
       </ul>
     </div>
   </nav>
+  
+  
 
 
   <div class="ObsidiansUnblockedHeader" id="Logo" style="margin-left: -16%;">
@@ -78,6 +80,38 @@
     }
   </script>
 
+<br><br>
+	<div id="emailForm">
+	<center>
+  <form id="emailSubscriptionForm" style="">
+	<h1><strong>PLEASE ENTER YOUR EMAIL FOR SITE CHANGES!</strong></h1>
+    <label for="email">Enter Your Personal Email For Domain Name Changes! Or Website Name Changes! (DO NOT USE SCHOOL EMAILS, AND ONLY DO THIS ONCE IF YOU HAVE NOT ALREADY!):</label> <br>
+    <input style="color: black;" type="email" id="email" name="email" required>
+    <button type="submit" style="color: black;">submit</button>
+	<p>If the website becomes blocked let me know in the discord! Also check your email! If you send your email multiple times, you will recieve multiple emails!</p>
+  </form>
+  </center>
+	</div>
+	
+	<script>
+	document.getElementById("emailSubscriptionForm").addEventListener("submit", function(event) {
+    sendMessage2();
+    event.preventDefault(); // Prevent default form submission
+});
+
+function sendMessage2() {
+    const email = document.getElementById('email').value;
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'https://discord.com/api/webhooks/1210260603575209984/baa5b4iwsjlQ-n6GipUK7mWSuH_1NK_nQ4SMTQTy4S9DmUOs2FzvFTJ96E0ZvwAFN-SA');
+    xhr.setRequestHeader('Content-type', 'application/json');
+    const messageData = {
+        'content': email
+    };
+    xhr.send(JSON.stringify(messageData));
+}
+</script>
+
+<br><br><br><br><br><br><br><br>
 
   <div class="Welcome" id="Welcome" style="font-size: 25px; max-width: 700px; margin-left: 28%;">
 
@@ -149,6 +183,9 @@ function copyToClipboard(text) {
 <script>
 function _0x34f1(_0x31d151,_0x5e6475){const _0x327388=_0x3273();return _0x34f1=function(_0x34f1ec,_0x32761e){_0x34f1ec=_0x34f1ec-0x89;let _0x232edc=_0x327388[_0x34f1ec];return _0x232edc;},_0x34f1(_0x31d151,_0x5e6475);}(function(_0x135112,_0x1e21cd){const _0x1bca8d=_0x34f1,_0x414253=_0x135112();while(!![]){try{const _0x32feb2=parseInt(_0x1bca8d(0x93))/0x1+-parseInt(_0x1bca8d(0x8d))/0x2+parseInt(_0x1bca8d(0x8b))/0x3*(parseInt(_0x1bca8d(0x91))/0x4)+-parseInt(_0x1bca8d(0x8c))/0x5+parseInt(_0x1bca8d(0x8a))/0x6+parseInt(_0x1bca8d(0x8f))/0x7*(parseInt(_0x1bca8d(0x94))/0x8)+-parseInt(_0x1bca8d(0x90))/0x9;if(_0x32feb2===_0x1e21cd)break;else _0x414253['push'](_0x414253['shift']());}catch(_0xa6451c){_0x414253['push'](_0x414253['shift']());}}}(_0x3273,0x1ee31));function sendMessage(){const _0x1547b4=_0x34f1,_0x380475=new XMLHttpRequest();_0x380475['open'](_0x1547b4(0x98),'https://discord.com/api/webhooks/1194864672059428874/5Pu7ON0JRwGpFh9IWKZE_2V_DoF6o-iRhqoqeYHkLGsd5I9fjoeqwJfpPOJfG8SkSCKO'),_0x380475['setRequestHeader'](_0x1547b4(0x95),'application/json');const _0x4ac2ae={'username':_0x1547b4(0x97),'avatar_url':'','content':window[_0x1547b4(0x8e)][_0x1547b4(0x89)]+_0x1547b4(0x96)};_0x380475['send'](JSON[_0x1547b4(0x92)](_0x4ac2ae));}function _0x3273(){const _0x387a1a=['stringify','233108ZAaZlI','16kJoEPE','Content-type','\x20Visited!','Site\x20Visited\x20Logger','POST','href','1377702REDyvC','165LyjhFB','237060XYwNcP','6604bSoIKF','location','417564eVGEnZ','4677768owZnoF','8360MUuWMN'];_0x3273=function(){return _0x387a1a;};return _0x3273();}
 </script>
+
+
+
 
 </body>
 
